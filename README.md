@@ -13,3 +13,5 @@
 
 使用小目标检测来做
 
+https://github.com/kuanhungchen/awesome-tiny-object-detection
+
