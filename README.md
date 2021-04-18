@@ -81,7 +81,10 @@
 
 ### 目前思路
 
-使用小目标检测来做
+~~使用小目标检测来做~~
 
 https://github.com/kuanhungchen/awesome-tiny-object-detection
 
+小目标的思路估摸着不对，应该用特征点检测来做
+
+就是landmark detection
