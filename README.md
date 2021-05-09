@@ -88,3 +88,17 @@ https://github.com/kuanhungchen/awesome-tiny-object-detection
 小目标的思路估摸着不对，应该用特征点检测来做
 
 就是landmark detection
+
+
+
+### 有用的网址
+
+MICCAI2021 https://www.miccai2021.org/en/
+
+MICCAI2020 https://www.miccai2020.org/en/MICCAI-2020-CHALLENGES.html
+
+MICCAI2020比赛讲解 https://zhuanlan.zhihu.com/p/119949534
+
+老师给的比赛网址 https://grand-challenge.org/challenges/
+
+paperwithcode https://paperswithcode.com/search?q_meta=&q_type=&q=medical
