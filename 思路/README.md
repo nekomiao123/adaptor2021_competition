@@ -13,3 +13,12 @@
 - 寻找细胞检测的思路
 - 用GAN和explicit density modeling by VAE
 
+
+
+# 其他的比赛
+
+- MICCAI 2019 VerSe 2019. 这个比赛也有定位，值得参考  https://zhuanlan.zhihu.com/p/90971011 
+
+比赛地址：https://verse2019.grand-challenge.org
+
+- MICCAI 2020 内窥镜图像分析 非常值得参考 https://zhuanlan.zhihu.com/p/120297988
