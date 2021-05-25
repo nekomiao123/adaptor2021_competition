@@ -64,6 +64,8 @@
 
 参考一篇MIA的论文 Integrating spatial configuration into heatmap regression based CNNs for landmark localization
 
+直接用这个论文的方法，之前唯一的疑惑就是点数不一样怎么办，现在初步思路就是直接预测大于所有点数量的heatmap，然后用算法筛选即可
+
 还有之前VERSE比赛的关键点检测方法
 
 3. 使用cyclegan做domain adaptation
