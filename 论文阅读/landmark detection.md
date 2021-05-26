@@ -18,8 +18,21 @@ output is a single foreground heatmap
 
 ### Integrating spatial configuration into heatmap regression based CNNs for landmark localization
 
+Citation 60
+
 https://www.sciencedirect.com/science/article/pii/S1361841518305784
 
 use two separate networks to do this.
 
 U-net and SCN
+
+
+
+## LSRC: A Long-Short Range Context-Fusing Framework for Automatic 3D Vertebra Localization  
+
+citation 2
+
+## Automatically localizing a large set of spatially correlated key points: A case study in spine imaging.
+
+Citation 3
+
