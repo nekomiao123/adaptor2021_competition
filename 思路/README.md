@@ -20,6 +20,7 @@
 2. 使用关键点检测算法结合分割算法找到点的坐标
    1. 第一步，直线检测算法，找到粗略的点的位置
    2. 第二步，直接用Integrating spatial configuration into heatmap regression based CNNs for landmark localization的方法，之前唯一的疑惑就是点数不一样怎么办，现在初步思路就是直接预测大于所有点数量的heatmap，然后用算法筛选即可
+   3. 参考代码 https://github.com/christianpayer
 
 
 
