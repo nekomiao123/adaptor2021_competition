@@ -18,7 +18,14 @@
 - 基于NASNet-A网络架构获得了top-performance
 
 2. 使用关键点检测算法结合分割算法找到点的坐标
-3. 使用cyclegan的方法做domain adaptation
+   1. 第一步，直线检测算法，找到粗略的点的位置
+   2. 第二步，直接用Integrating spatial configuration into heatmap regression based CNNs for landmark localization的方法，之前唯一的疑惑就是点数不一样怎么办，现在初步思路就是直接预测大于所有点数量的heatmap，然后用算法筛选即可
+
+
+
+3. 使用cyclegan的方法做domain adaptation； 另外一个思路是用Domain Adversarial Training of Nerural Networks
+
+
 
 
 
@@ -28,6 +35,8 @@
 - 主要的挑战就是detect points of interest on these endoscopic images，传统的landmark可能不好使
 - 寻找细胞检测的思路
 - 用GAN和explicit density modeling by VAE
+
+
 
 
 
@@ -42,12 +51,6 @@
 
 
 
-
-
-
-
-
-
 ![image-20210512174202466](https://cdn.jsdelivr.net/gh/nekomiao123/pic/img/image-20210512174202466.png)
 
 
@@ -56,19 +59,13 @@
 
 1. 处理数据集
 
-参考 Surgical Visual Domain Adaptation: Results from the MICCAI 2020 SurgVisDom Challenge 这篇论文的总结部分，其中对内窥镜图像的的增广进行了详细的分析
+参考CATARACTS: Challenge on automatic tool annotation for cataRACT surgery这篇论文的总结部分，其中对内窥镜图像的的增广进行了详细的分析
 
 2. 使用关键点检测算法找出关键点
 
 参考一篇TMI的论文 Deep Learning-Based Regression and Classification for Automatic Landmark Localization in Medical Images
 
 参考一篇MIA的论文 Integrating spatial configuration into heatmap regression based CNNs for landmark localization
-
-第一步，直线检测算法，找到粗略的点的位置
-
-第二部，直接用这个论文的方法，之前唯一的疑惑就是点数不一样怎么办，现在初步思路就是直接预测大于所有点数量的heatmap，然后用算法筛选即可
-
-
 
 还有之前VERSE比赛的关键点检测方法
 
